@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//import ClientAdminView from "../pages/ClientAdminView";
 import {
   AppBar,
   Typography,
@@ -7,11 +8,11 @@ import {
   Button,
   Tabs,
   Tab,
-  TextField,
+  //TextField,
 } from "@mui/material";
 import { Link } from "react-router-dom";
 // import { useDispatch, useSelector } from "react-redux";
-import { authActions } from "./store";
+//import { authActions } from "./store";
 import { useStyles } from "./utils";
 
 const Header = () => {
@@ -40,22 +41,22 @@ const Header = () => {
 
         <Box display="flex">
           <Button
-            //LinkComponent={Link}
-            //to="/auth"
+           // LinkComponent={Link}
+            //to="/home"
             variant="text"
             sx={{ margin: 1, borderRadius: 1 }}
             color="inherit"
-          //style={{ width: "30%" }}
+         // style={{ width: "2%" }}
           >
             Home
           </Button>
           <Button
-            //LinkComponent={Link}
-            //to="/auth"
+            LinkComponent={Link}
+            to="/dash-view"
             variant="text"
             sx={{ margin: 1, borderRadius: 1 }}
             color="inherit"
-          //style={{ width: "30%" }}
+          style={{ width: "2%" }}
           >
             Clients
           </Button>

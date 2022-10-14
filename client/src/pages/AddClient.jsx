@@ -230,7 +230,7 @@ function submitForm(e){
                             <option selected style={{ fontSize: "16px" }}>Select Trainer</option>
                             <option selected>Select Trainer</option>
                             <option value="M.D. Perera">M.D. Perera</option>
-                            <option value="Female">D.S. Ariyarathna</option>
+                            <option value="D.S. Ariyarathna">D.S. Ariyarathna</option>
                           </select>
 
 

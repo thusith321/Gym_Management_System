@@ -263,7 +263,7 @@ export default function UpdateClientModel(props) {
                                                                 <select className="form-select mb-4 text-grey" aria-label="Disabled select example" value={trainer} onChange={(e) => setTrainer(e.target.value)}>
                                                                     <option selected style={{ fontSize: "16px" }}>Select Trainer</option>
                                                                     <option value="M.D. Perera">M.D. Perera</option>
-                                                                    <option value="Female">D.S. Ariyarathna</option>
+                                                                    <option value="D.S. Ariyarathna">D.S. Ariyarathna</option>
                                                                 </select>
 
 
