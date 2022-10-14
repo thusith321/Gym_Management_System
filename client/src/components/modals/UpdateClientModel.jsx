@@ -105,7 +105,7 @@ export default function UpdateClientModel(props) {
                 setPrograms("");
                 setTrainer("");
                 setShow(false);
-                swal({ text: "Cloth Successfully Updated", icon: "success", button: "Okay!" }).then((value) => {
+                swal({ text: "Client Successfully Updated", icon: "success", button: "Okay!" }).then((value) => {
                     props.getdata()
                 });
 
@@ -295,7 +295,7 @@ export default function UpdateClientModel(props) {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="success" onClick={submitForm}>
-                        Update Cloth
+                        Update Client
                     </Button>
                     <Button variant="danger" onClick={handleClose}>
                         Exit
